@@ -1,0 +1,82 @@
+.body{
+	background-color: #ffe6cc;
+}
+.outer{
+	background-color:lightgrey;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	height:35rem;
+	width:45rem;
+	margin:6rem 10px 10px 23rem;
+	padding:10px 10px;
+
+}
+.heading{
+	position:relative;
+	height:4rem;
+	width:100%;
+	background-color:black;
+	color:white;
+
+}
+.heading h3{
+	margin:13px 5px 5rem 15rem;
+	font-size:2rem;
+	letter-spacing:0.1rem;
+
+}
+.outputScreen{
+	position:relative;
+	height:7rem;
+	width:100%;
+	background-color:#ffffe6;
+	color:blue;
+	margin-top:0.7rem;
+	font-size:4rem;
+}
+.button-container{
+	position:relative;
+	height:22rem;
+	width:98%;
+	/*border:2px solid black;*/
+	margin-top:1rem;
+	display:flex;
+	flex-direction:row;
+	padding:5px 5px 5px 5px;
+	flex-wrap:wrap;
+	padding-left:1rem;
+	padding-top:1rem;
+
+}
+.working-keys{
+	width:23%;
+	height:17%;
+	font-size:3.5rem;
+	position:relative;
+	margin-right:0.84rem;
+
+}
+.yellow-color{
+	background-color:#ffffff;
+}
+#key-names{
+	top:2rem;
+	margin-left:3.5rem;
+}
+.light-maroon-color{
+	background-color: #990033;
+}
+.zeroth-key{
+	width:46%;
+	height:17%;
+	font-size:3.5rem;
+	position:relative;
+	margin-right:1.6rem;
+}
+.white-color{
+	color:white;
+}
+.working-keys:hover {
+	background-color:#ffc877;
+}
